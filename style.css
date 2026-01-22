@@ -1,0 +1,162 @@
+* {
+  margin: 1px;
+  padding: 1px;
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  background:linear-gradient(to right, #f891f3, #f6f3f3);
+}
+
+/* Navbar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background: #222;
+  position:static;
+  top: 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.logo {
+  margin-left: -70%;
+}
+
+/* Hero */
+.hero {
+  height: 90vh;
+  background: linear-gradient(to right, #f891f3, #f6f3f3);
+  color: rgb(12, 12, 12);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: white;
+  color: #222;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* Sections */
+section {
+  padding: 50px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Skills */
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skills-container span {
+  background: #ddd;
+  padding: 10px 15px;
+  margin: 8px;
+  border-radius: 20px;
+}
+
+/* achievements */
+.achieve-card {
+  background:linear-gradient(white,wheat);
+  color: #080808;
+  margin: 20px auto;
+  padding: 15px;
+  max-width: 700px;
+  border-radius: 10px;
+  text-align: center;
+}
+/*IBM CERTIFICATE*/
+.ibm{
+  background:linear-gradient(blue,rgb(7, 6, 49));
+  color:white;
+}
+.credly{
+  background:linear-gradient(blue,rgb(7, 6, 49));
+  color:white;
+}
+.credly2{
+  background:linear-gradient(blue,rgb(7, 6, 49));
+  color:white;
+}
+
+/* Contact */
+.contact-links {
+  list-style: none;
+  padding: 0px;
+  display: flex;
+  gap: 15px;
+  margin-right: 40%;
+}
+/* Instagram Button */
+.instagram {
+  background:linear-gradient(90deg,#405DE6,#5851DB,#833AB4,#E1306C,#FD1D1D);
+  color:white;
+  width: 2px;
+  gap:inherit;
+  height: inherit;
+}
+
+/* LinkedIn Button */
+.linkedin {
+  background-color: #0850ed;
+  color:rgb(235, 237, 242);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  width: 2px;
+  gap: inherit;
+  height: inherit;
+}
+
+/* Gmail Button */
+.gmail{
+  background-color: #FD1D1D;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color:white;
+  width: 2px;
+  gap: inherit;
+  height:inherit;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+  opacity: 0.7;
+}
+
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #222;
+  color: white;
+}
